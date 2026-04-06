@@ -12,12 +12,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // นำข้อมูลจากข้อ 1 มาวางตรงนี้
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyCBQ2Ojv7kyxW1WEsC4EjN2LMloW_3pMoM",
+  authDomain: "cookieplus-6bbe3.firebaseapp.com",
+  projectId: "cookieplus-6bbe3",
+  storageBucket: "cookieplus-6bbe3.firebasestorage.app",
+  messagingSenderId: "818909902958",
+  appId: "1:818909902958:web:6109548349a77976bece7f"
 };
 
 const app = initializeApp(firebaseConfig);
